@@ -39,15 +39,41 @@
 #### ChatGPT
 Add `https://mcp.tongsapp.com` as an MCP connector and follow the step-by-step instructions on [tongsapp.com/connect](https://tongsapp.com/connect).
 
+#### Claude Code
+```bash
+claude mcp add --transport http --scope user tongs https://mcp.tongsapp.com
+```
+
+#### Codex CLI
+```bash
+codex mcp add tongs --url https://mcp.tongsapp.com
+```
+
 #### Gemini CLI
 ```bash
 gemini mcp add --transport http --scope user tongs https://mcp.tongsapp.com
 ```
 Then run `/mcp auth` in Gemini CLI and approve the connection on your phone.
 
-#### Claude Code
-```bash
-claude mcp add --transport http tongs https://mcp.tongsapp.com
+#### VS Code (One-Click Install)
+- [Install Tongs MCP in VS Code](https://vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522tongs%2522%252C%2522type%2522%253A%2522http%2522%252C%2522url%2522%253A%2522https%253A%252F%252Fmcp.tongsapp.com%2522%257D)
+
+#### Cursor (One-Click Install)
+- Open [tongsapp.com/connect](https://tongsapp.com/connect) (CLI & IDEs tab) and click **Add to Cursor**, or paste this deep link in your browser:
+```text
+cursor://anysphere.cursor-deeplink/mcp/install?name=tongs&config=eyJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vbWNwLnRvbmdzYXBwLmNvbSJ9
+```
+
+#### Any Other MCP Client (Antigravity, OpenCode, Windsurf, etc.)
+```json
+{
+  "mcpServers": {
+    "tongs": {
+      "type": "http",
+      "url": "https://mcp.tongsapp.com"
+    }
+  }
+}
 ```
 
 ---
