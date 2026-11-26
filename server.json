@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.tongsapp/tongs",
+  "title": "Tongs — Android AI Control",
+  "description": "Remote MCP server that lets Claude, ChatGPT, Gemini CLI, or any MCP client control your Android phone (view screen, tap, type, swipe, open apps) with per-app permissions and protection for banking and payment apps that Tongs recognizes.",
+  "websiteUrl": "https://tongsapp.com/connect",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/VividWorldAI/tongs-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tongsapp.com"
+    }
+  ]
+}
