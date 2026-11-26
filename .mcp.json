@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tongs": {
+      "type": "http",
+      "url": "https://mcp.tongsapp.com"
+    }
+  }
+}
