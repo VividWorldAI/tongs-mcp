@@ -5,8 +5,10 @@
 > **Note:** This public repository hosts documentation and registry metadata (`server.json`) for the hosted Tongs Remote MCP Server (`https://mcp.tongsapp.com`). The Tongs mobile apps and hosted server are proprietary software.
 
 - **Website:** https://tongsapp.com
-- **AI Control Setup Guide:** https://tongsapp.com/connect
-- **Getting Started:** https://tongsapp.com/start
+- **Google Play (Android):** https://play.google.com/store/apps/details?id=com.tongs.app
+- **App Store (iPhone):** https://apps.apple.com/app/tongs-remote-for-android/id6834346050
+- **AI Control Setup Guide:** https://tongsapp.com/connect/
+- **Getting Started:** https://tongsapp.com/start/
 - **Community & Support (Discord):** https://discord.gg/Wqbdpmfsjp
 - **Support Email:** support@tongsapp.com
 
@@ -22,7 +24,7 @@
 ## Quick Setup (Remote MCP)
 
 ### 1. Prepare your Android phone
-1. Install **Tongs** on your Android phone (Android 11 or later). See [tongsapp.com/start](https://tongsapp.com/start) for download options.
+1. Install **Tongs** on your Android phone (Android 11 or later) from [Google Play](https://play.google.com/store/apps/details?id=com.tongs.app) (see [tongsapp.com/start](https://tongsapp.com/start/) for full setup instructions).
 2. Follow the in-app setup wizard to enable Wireless debugging and sign in with Google.
 
 ### 2. Connect your MCP client
